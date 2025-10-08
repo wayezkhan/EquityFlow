@@ -1,0 +1,58 @@
+.root {
+    -fx-padding: 10;
+}
+
+.content-pane {
+    -fx-border-color: #c0c0c0;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-background-color: white;
+}
+
+.nav-button {
+    -fx-text-alignment: center;
+    -fx-pref-width: 150;
+    -fx-pref-height: 50;
+}
+
+.balance-box {
+    -fx-background-color: #e8f5e9;
+    -fx-border-color: #a5d6a7;
+    -fx-border-width: 1;
+    -fx-padding: 10;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.balance-value {
+    -fx-font-weight: bold;
+    -fx-font-size: 14pt;
+}
+
+.form-grid {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-padding: 10;
+}
+
+.form-button {
+    -fx-pref-width: 100;
+}
+
+.dashboard-button {
+    -fx-pref-width: 180;
+}
+
+.fetch-results-button {
+    -fx-pref-width: 140;
+    -fx-pref-height: 30;
+}
+
+.empty-column {
+    -fx-alignment: center;
+}
+
+.empty-column .label {
+    -fx-pref-width: 100%;
+    -fx-alignment: center;
+}
